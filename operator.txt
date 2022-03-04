@@ -1,0 +1,27 @@
+var a=10;
+var b=20;
+function add()
+{
+    console.log(a+b);
+}
+add();
+let d=10;
+// take variable name as day , its possible values are 0 1 2 3 4 5
+// 0 = Monday 
+// 5 : Saturday
+let day=5;
+switch(true)
+{
+    case 0;
+    console.log("monday");
+    case 1:
+    console.log("tuesday");
+    case 2:
+    console.log ("wednesday);
+    case 3:
+    console.log("thursday")
+    case 4:
+    console.log("fri);
+    default:
+    console.log("sunday fun  day");
+}
